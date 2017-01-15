@@ -1,0 +1,76 @@
+/*bookList*/
+
+.bookList {
+    padding: 0 10rem;
+    
+    &__item {
+        margin: 30rem 0 0;
+        text-align: center;
+    }
+    
+    &__img {
+        width: 211rem;
+        position: relative;
+        display: inline-block;
+        box-shadow: 2rem 3rem 10rem #333;
+        cursor: pointer;
+        z-index: 99;
+    }
+    
+    &__text {
+        min-height: 117rem;
+        text-align: center;
+        
+        u {
+            color: #4285be;
+            text-decoration: none;
+        }
+    }
+    
+    &__bookmark {
+        width: 13rem;
+        height: 31rem;
+        position: relative;
+        top: -10rem;
+        margin-left: 54rem;
+        background-color: #8b8a8b;
+        transition: top 0.2s ease-out;
+        z-index: 98;
+        
+        &_green {
+            background-color: #31997f;
+        }
+        
+        &_red {
+            background-color: #e35056;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-top: 0;
+            border-left: 7rem solid transparent;
+            border-right: 7rem solid transparent;
+            border-bottom: 6rem solid #fff;
+        } 
+    }
+    
+    &__img:hover + &__bookmark {
+       top: -1rem; 
+    }
+    
+    &__button {
+        margin: 35rem auto 0;
+        padding: 8rem 0;
+        border: 3rem solid #96c2e4;
+        border-radius: 7rem;
+        opacity: 1;
+        
+        &:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+}

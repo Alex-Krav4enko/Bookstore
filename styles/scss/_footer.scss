@@ -1,0 +1,15 @@
+/*footer*/
+
+.footer {
+    margin-top: 55rem;
+    text-align: center;
+    
+    &__img {
+        width: 300rem;
+        padding: 100rem 0;
+        display: inline-block;
+        background: url(../i/logo_footer.png) no-repeat 50% 100%;
+        background-size: 100%;
+        cursor: pointer;
+    }
+}

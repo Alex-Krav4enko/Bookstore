@@ -1,0 +1,23 @@
+/*eye*/
+
+@media only screen and (min-width: 1366px) {
+    .eye {
+        width: 150rem;
+        height: 150rem;
+        line-height: 180rem;
+        left: 138rem;
+        top: 330rem;
+        
+        &__white {
+            top: 4rem;
+            left: 4rem;
+            right: 4rem;
+            bottom: 4rem;
+        }
+        
+        &__pupil {
+            width: 30rem;
+            height: 30rem;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/*body*/
+
+@media only screen and (min-width: 768px) { 
+    .body {
+        padding: 0 40rem;
+        text-align: center;
+    
+        &__section1 {
+            max-width: 1200rem;
+            margin: 0 auto;
+        }
+        
+        &__section2 {
+            max-width: 880rem;
+            margin: 0 auto;
+        }
+
+        &__section3 {
+            max-width: 640rem;
+            margin: 0 auto;
+        }
+        
+        &__section4 {
+            position: relative;
+        }
+        
+        &__book {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+}

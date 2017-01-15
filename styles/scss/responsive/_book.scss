@@ -1,0 +1,17 @@
+/*book*/
+
+@media only screen and (min-width: 1366px) {
+    .book {
+        
+        &__bookmark {
+            width: 25rem;
+            height: 38rem;
+        
+            &::after {
+                border-left: 13rem solid transparent;
+                border-right: 13rem solid transparent;
+                border-bottom: 10rem solid #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import 'normalize/_import-now.scss';
+
+p {
+    margin: 20rem 0;
+}
+
+html {
+    font-size: 0.31vw;
+}
+
+/*768*/
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 0.12vw;
+    }
+}
+
+/*1366*/
+@media only screen and (min-width: 1366px) {
+    html {
+        font-size: 0.0732vw;
+    }
+}
+
+/*main*/
+@import '_body.scss';
+@import '_fonts.scss';
+@import '_text.scss';
+@import '_header.scss';
+@import '_logo.scss';
+@import '_search.scss';
+@import '_founders.scss';
+@import '_footer.scss';
+@import '_book.scss';
+@import '_comments.scss';
+@import '_button.scss';
+@import '_bookList.scss';
+@import '_order.scss';
+@import '_eye.scss';
+/*responsive*/
+@import 'responsive/_body.scss';
+@import 'responsive/_text.scss';
+@import 'responsive/_header.scss';
+@import 'responsive/_logo.scss';
+@import 'responsive/_search.scss';
+@import 'responsive/_founders.scss';
+@import 'responsive/_comments.scss';
+@import 'responsive/_book.scss';
+@import 'responsive/_bookList.scss';
+@import 'responsive/_order.scss';
+@import 'responsive/_eye.scss';

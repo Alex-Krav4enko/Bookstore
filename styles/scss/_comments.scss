@@ -1,0 +1,45 @@
+/*comments*/
+
+.comments {
+    
+    &__block {
+        margin: 60rem 0 0;
+    }
+    
+    &__img {
+        height: 185rem;
+        width: 207rem;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    &__text {
+        margin: 15rem 0 0;
+        
+        &_arrow {
+            position: relative;
+            padding: 0 22rem;
+        }
+    }
+    
+    &__arrow {
+        height: 23rem;
+        width: 23rem;
+        position: absolute;
+        background-image: url(../i/arrow.png);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        
+        &_l {
+            left: 0;
+            top: 5rem;
+            background-position: 0 bottom;
+        }
+        
+        &_r {
+            right: 0;
+            bottom: 4rem;
+            background-position: -23rem bottom;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+/*search*/
+
+.search {
+    
+    &__form {
+        width: 300rem;
+        position: relative;
+    }
+
+    &__input {
+        height: 18rem;
+        width: 226rem;
+        padding: 5rem 0 5rem 35rem;
+        border: 1rem solid #b3b3b3;
+        border-radius: 20rem;
+        font-size: 12rem;
+        color: #aeb6c3;
+
+        &:focus {
+            outline: none;
+            box-shadow: inset -1rem 1rem 3rem;
+        }
+    }
+
+    &__icon {
+        width: 20rem;
+        height: 20rem;
+        background: url(../i/search__icon.jpg) no-repeat 0 0;
+        background-size: 100%;
+        position: absolute;
+        top: 5rem;
+        left: 8rem;
+    }
+
+    &__button {
+        display: inline-block;
+        width: 30rem;
+        height: 30rem;
+        padding: 0;
+        margin-left: 3rem;
+        vertical-align: top;
+        border: none;
+        background: url(../i/search__button.png) no-repeat 50% 50%;
+        background-size: 50%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

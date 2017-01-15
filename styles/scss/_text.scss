@@ -1,0 +1,85 @@
+/*title*/
+
+$title_font_family: Arial;
+$title_font_weight: bold;
+$title_color: #000;
+
+@mixin title ($text-align, $font-size, $margin) {
+    text-align: $text-align;
+    font-family: $title_font_family;
+    font-weight: $title_font_weight;
+    font-size: $font-size;
+    color: $title_color;
+    margin: $margin;
+}
+
+.title1 {
+    @include title (center, 38rem, 0 auto 50rem);
+}
+
+.title2 {
+    @include title (left, 32rem, 50rem auto 30rem);
+}
+
+.title3 {
+    @include title (left, 24rem, 30rem auto 30rem);
+}
+
+/*text*/
+
+$textTitle_border: 1rem solid #7d7d7d;
+
+@mixin text ($text-align, $font-family, $font-weight, $font-size, $line-height, $color) {
+    text-align: $text-align;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+}
+
+.text1 {
+    @include text (center, Arial, normal, 24rem, 30rem, #333);
+    
+    strong {
+        color: #fc5454;
+        font-weight: normal;
+    }
+}
+
+.text2 {
+    @include text (left, Arial, normal, 19rem, 28rem, #333);
+}
+
+.text3 {
+    @include text (center, Arial, normal, 21rem, 34rem, #4c4c4c);
+}
+
+.text4 {
+    @include text (center, Arial, normal, 32.6rem, 40rem, #fff);
+}
+
+.text5 {
+    @include text (center, Arial, normal, 16rem, 23rem, #dcdcdc);
+    font-style: italic;
+}
+
+.text6 {
+    @include text (center, Arial, normal, 17rem, 23rem,  #4285be);
+}
+
+.textTitle {
+    @include text (center, ALSFuchsia, normal, 28rem, 40rem, #000);    
+    margin: 35rem auto;
+    padding: 35rem 0;
+    border-top: $textTitle_border;
+    border-bottom: $textTitle_border;
+}
+
+.textMark {
+    font-style: italic;
+}
+
+.hide {
+    display: none;
+}

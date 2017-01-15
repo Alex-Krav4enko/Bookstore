@@ -1,0 +1,60 @@
+/*founders*/
+
+.founders {
+    text-align: center;    
+
+    &__item {
+        width: 144rem;
+        margin: 18rem 0;
+        display: inline-block;
+    
+        &_mini {
+            margin: 10rem 0;
+        }
+    }
+
+    &__img {
+        height: 117rem;
+        width: 117rem;
+        display: inline-block;
+        background-image: url(../i/founders.png);
+        background-repeat: no-repeat;
+        background-size: 613%;
+    
+        &_mini {
+            height: 70rem;
+            width: 70rem;
+        }
+    
+        &_1 {
+            background-position: 0 bottom;
+        }
+
+        &_2 {
+            height: 154rem;
+            width: 130rem;
+            background-position: -117rem bottom;
+            background-size: 552%;
+        }
+
+        &_3 {
+            background-position: -247rem bottom;
+
+            &_mini {
+                background-position: -147rem bottom;
+            }
+        }
+
+        &_4 {
+            background-position: -365rem bottom;
+        }
+
+        &_5 {
+            background-position: -482rem bottom;
+        }
+
+        &_6 {
+            background-position: -600rem bottom;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+/*order*/
+
+.order {
+    
+    &__block {
+        padding: 10rem;
+    }
+    
+    &__title_mark {
+        color: #0059f5;
+        text-decoration: underline;
+    }
+    
+    &__text {
+        margin: 20rem 0 10rem 10rem;
+    }
+    
+    &__input {
+        height: 18rem;
+        width: 230rem;
+        padding: 5rem;
+        border: 4rem solid #333;
+        font-size: 12rem;
+        color: #333;
+        
+        &_textarea {
+            height: 150rem;
+        }
+        
+        &:focus {
+            outline: none;
+            border: 4rem solid #000;
+        }
+    }
+    
+    &__radio {
+        margin: 0 5rem 0 0;
+    }
+    
+    &__button {
+        display: block;
+        width: 220rem;
+        height: 40rem;
+        margin: 0 auto;
+        border: 4rem solid #333;
+        border-radius: 5rem;
+        color: #333;
+    }
+    
+    &__img {
+        width: 100%;
+    }
+    
+    &__hide {
+        display: none;
+    }
+}

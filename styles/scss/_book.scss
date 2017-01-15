@@ -1,0 +1,37 @@
+/*book*/
+
+.book {
+    width: 80%;
+    margin: 0 auto 40rem;
+    padding: 0 10rem;
+    text-align: center;
+    position: relative;
+
+    &__img {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        box-shadow: 4rem 7rem 30rem rgba(0,0,0,0.7);
+        z-index: 99;
+    }
+    
+    &__bookmark {
+        width: 17rem;
+        height: 32rem;
+        position: relative;
+        margin-left: 25rem;
+        background-color: #f2535c;
+        z-index: 98;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-top: 0;
+            border-left: 9rem solid transparent;
+            border-right: 9rem solid transparent;
+            border-bottom: 8rem solid #fff;
+        }
+    }
+}

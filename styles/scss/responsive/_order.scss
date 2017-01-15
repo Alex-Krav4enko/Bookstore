@@ -1,0 +1,32 @@
+/*order*/
+
+@media only screen and (min-width: 768px) {
+    
+    .order {
+        
+        &__block {
+            display: inline-block;
+            padding: 0 40rem;
+            vertical-align: top;
+        }
+        
+        &__button {
+            margin: 40rem auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    
+    .order {
+        
+        &__block {
+            padding: 0 35rem;
+        }
+        
+        &__title {
+            max-width: 650rem;
+        }
+
+    }
+}

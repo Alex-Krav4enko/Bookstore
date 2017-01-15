@@ -1,0 +1,55 @@
+/*text*/
+
+@media only screen and (min-width: 768px) {
+    .title1 {
+        @include title (center, 64rem, 0 auto 50rem);
+    }
+    
+    .title2 {
+        @include title (left, 42rem, 50rem auto 30rem);
+    }
+    
+    .title3 {
+        @include title (left, 24rem, 30rem auto 30rem);
+    }
+    
+    .text1 {
+        @include text (center, Arial, normal, 25rem, 42rem, #333);
+    }
+    
+    .text2 {
+        @include text (left, Arial, normal, 19rem, 29rem, #333);
+    }
+    
+    .text3 {
+        @include text (center, Arial, normal, 17rem, 34rem, #4c4c4c);
+    }
+    
+    .textTitle {
+        @include text (center, ALSFuchsia, normal, 36rem, 50rem, #000);
+        margin: 50rem auto;
+        padding: 50rem 0;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .title1 {
+        @include title (center, 72rem, 0 auto 50rem);
+    }
+    
+    .text1 {
+        @include text (center, Arial, normal, 32rem, 42rem, #333);
+    }
+
+    .text3 {
+        @include text (center, Arial, normal, 21rem, 34rem, #4c4c4c);
+    }
+    
+    .newLine {
+        display: inline;
+    }
+    
+    .hide {
+        display: block;
+    }
+}

@@ -1,0 +1,50 @@
+/*bookList*/
+
+@media only screen and (min-width: 768px) {
+    .bookList {
+        
+        &__wrapp {
+            
+            &::after {
+                display: table;
+                clear: both;
+                content: "";
+            } 
+        }
+        
+        &__item {
+            width: 50%;
+            float: left;
+        }
+        
+        &__text {
+            padding: 0 20rem;
+            text-align: center;
+        }
+        
+        &__bookmark {
+            width: 13rem;
+            height: 31rem;
+            margin-left: 92rem;
+        }
+        
+        &__button {
+            width: 280rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .bookList {
+ 
+        &__item {
+            width: 25%;
+        }
+        
+        &__bookmark {
+            width: 13rem;
+            height: 31rem;
+            margin-left: 72rem;
+        }
+    }
+}

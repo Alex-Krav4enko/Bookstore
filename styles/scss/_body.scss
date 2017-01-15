@@ -1,0 +1,21 @@
+/*body*/
+
+.body {
+    padding: 0 10rem;
+    
+    &__show1 {
+        display: none;
+    }
+    
+    &__show2 {
+        display: none;
+    }
+    
+    &__show3 {
+        display: block;
+    }
+    
+    &__show4 {
+        display: none;
+    }
+}

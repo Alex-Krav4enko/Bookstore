@@ -1,0 +1,36 @@
+/*comments*/
+
+@media only screen and (min-width: 768px) {
+    .comments {
+        width: 30%;
+        position: absolute;
+        top: 0;
+        
+        &__block {
+            margin: 0 auto 60rem;
+        }
+        
+    
+        &_1 {
+            left: 0;
+        }
+        
+        &_2 {
+            right: 0;
+        }
+        
+        &__text {
+            padding: 0 22rem;
+        }
+    
+    }
+
+}
+
+@media only screen and (min-width: 1366px) {
+    .comments {
+        &__block {
+            width: 284rem;
+        }
+    }
+}
