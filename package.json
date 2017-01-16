@@ -1,0 +1,21 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Издательство «Фрай, без штанов и Бендер» запускает межгалактический интернет-магазин книг.",
+  "main": "index.html",
+  "scripts": {
+    "compile-sass": "./node_modules/.bin/node-sass -w styles/scss/main.scss styles/main.css",
+    "use-autoprefixer": "./node_modules/.bin/postcss --use autoprefixer styles/main.css",
+    "build": "npm run compile-sass && npm run use-autoprefixer"
+  },
+  "author": "Alex Kravchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "node-sass": "^3.10.1",
+    "postcss-cli": "^2.6.0"
+  },
+  "dependencies": {
+    "normalize-scss": "^6.0.0"
+  }
+}
